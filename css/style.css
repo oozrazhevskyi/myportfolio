@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+
+:root {
+  --bs-gutter-x: 0px;
+  --bg-primary: #f4f9f9;
+  --bg-secondary: #f4f9f2;
+  --bg-progress-primary: #3678da;
+  --bg-progress-secondary: #e7e7e7;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+/* HEADER */
+
+/* #region */
+
+.myheader-img {
+  background: url("../img/header/bg.jpg") no-repeat, rgba(73, 163, 198, 0.329);
+  background-size: cover;
+}
+
+.myheader-content {
+  padding-top: 93px;
+  padding-left: 165px;
+  padding-right: 165px;
+  padding-bottom: 240px;
+  color: #fff;
+}
+.navbar-toggler-icon {
+  background-image: url("../img/navbutton.svg");
+}
+.nav-item {
+  margin-right: 60px;
+}
+.nav-item:last-child {
+  margin-right: 0;
+}
+.landing {
+  margin-top: 145px;
+}
+
+.landing > h1 {
+  font-size: 64px;
+  line-height: 78px;
+}
+
+.landing > p {
+  margin-top: 26px;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.worklink {
+  margin-top: 106px;
+}
+.worklink > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+/* #endregion */
+
+/* MAIN BLOCK */
+
+/* #region */
+
+/* .main-about-section */
+/* #region */
+.main-about-section {
+  padding-top: 93px;
+  padding-bottom: 115px;
+  padding-right: 165px;
+  padding-left: 165px;
+  color: #333333;
+  background: var(--bg-primary);
+}
+
+.main-about-section > h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 76px;
+}
+
+.main-about-section > p {
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+}
+/* #endregion */
+
+/* .main-skills-section */
+/* #region */
+.main-skills-section {
+  padding-top: 93px;
+  padding-bottom: 145px;
+  padding-left: 165px;
+  padding-right: 165px;
+  background: var(--bg-secondary);
+}
+
+.main-skills-section > h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 76px;
+}
+
+/* .profile {
+  height: 340px;
+  width: 350px;
+} */
+
+.skills-profile {
+  margin-bottom: 65px;
+}
+
+.progress {
+  height: 24px;
+  padding: 0;
+  background: var(--bg-progress-secondary);
+}
+
+.progress-bar {
+  background: var(--bg-progress-primary);
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+.skill:last-child {
+  margin-bottom: 0;
+}
+/* #endregion */
+
+/* .main-portfolio-section */
+/* #region */
+.main-portfolio-section {
+  padding-top: 93px;
+  padding-bottom: 145px;
+  padding-left: 165px;
+  padding-right: 165px;
+  background: var(--bg-primary);
+}
+.main-portfolio-section > h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.flex-column {
+  min-width: 144px;
+}
+.img-fluid {
+  margin: 15px;
+  cursor: pointer;
+}
+
+.gallery {
+  margin-top: 86px;
+}
+
+.gallery-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #333333;
+  margin-bottom: 48px;
+}
+
+.gallery-switch {
+  margin-top: 235px;
+}
+
+.gallery-switch > img {
+  margin-left: 14px;
+}
+
+.rect1 {
+}
+
+/* #endregion */
+
+/* #endregion */
+
+/* FOOTER */
+
+/* #region */
+.footer {
+  padding-top: 93px;
+  padding-left: 165px;
+  padding-right: 347px;
+  padding-bottom: 189px;
+  background: var(--bg-secondary);
+}
+
+.footer > h1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 51px;
+}
+.flex-column > a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: #333333;
+  margin-bottom: 14px;
+}
+.flex-column > a:last-child {
+  margin-bottom: 0;
+}
+.contacts {
+  margin-bottom: 95px;
+}
+/* #endregion */

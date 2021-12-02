@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time track</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <main class="main m-5">
+        <div class="row">
+            <div class="col-lg-2">
+                <div class="timeline card h-100">
+                    <div class="card-body adaptive-align">
+                        <img class="avatar m-lg-2" src="./img/photo.png" alt="Photo">
+                        <div class="card-text m-lg-2">
+                            <p>Report for </p>
+                            <h5>Jeremy Robson</h5>
+                        </div>
+                    </div>
+                    <ul class="adaptive-align px-4 py-1 m-1">
+                        <li><a href="#" onclick="updateReport('daily');return false;" class="text-decoration-none">Daily</a></li>
+                        <li><a href="#" onclick="updateReport('weekly');return false;" class="text-decoration-none">Weekly</a></li>
+                        <li><a href="#" onclick="updateReport('monthly');return false;" class="text-decoration-none">Monthly</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-lg-10 row">
+                <div class="timeline-item m-1 col-lg-3 col-12 card" id="timeline-work">
+                    <div class="card-img-top top-work">
+                        <img src="./img/icon-work.svg" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Work</h5>
+                            <a href="#" class="bullets">•••</a>
+                        </div>
+
+                        <div class="adaptive-align">
+                            <h1 id="current-hours"></h1>
+                            <p class="card-text" id="previous-hours"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item m-1 col-lg-3 col-12 card" id="timeline-play">
+                    <div class="card-img-top top-play">
+                        <img src="./img/icon-play.svg" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Play</h5>
+                            <a href="#" class="bullets">•••</a>
+                        </div>
+                        
+                        <div class="adaptive-align">
+                            <h1 id="current-hours"></h1>
+                            <p class="card-text" id="previous-hours"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item m-1 col-lg-3 col-12 card" id="timeline-study">
+                    <div class="card-img-top top-study">
+                        <img src="./img/icon-study.svg" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Study</h5>
+                            <a href="#" class="bullets">•••</a>
+                        </div>
+                        <div class="adaptive-align">
+                            <h1 id="current-hours"></h1>
+                            <p class="card-text" id="previous-hours"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="timeline-item m-1 col-lg-3 col-12 card" id="timeline-exercise">
+                    <div class="card-img-top top-exercise">
+                        <img src="./img/icon-exercise.svg" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Exercise</h5>
+                            <a href="#" class="bullets">•••</a>
+                        </div>
+                        <div class="adaptive-align">
+                            <h1 id="current-hours"></h1>
+                            <p class="card-text" id="previous-hours"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item m-1 col-lg-3 col-12 card" id="timeline-social">
+                    <div class="card-img-top top-social">
+                        <img src="./img/icon-social.svg" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Social</h5>
+                            <a href="#" class="bullets">•••</a>
+                        </div>
+                        <div class="adaptive-align">
+                            <h1 id="current-hours"></h1>
+                            <p class="card-text" id="previous-hours"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item m-1 col-lg-3 col-12 card" id="timeline-self-care">
+                    <div class="card-img-top top-self-care">
+                        <img src="./img/icon-self-care.svg" alt="">
+                    </div>
+
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="card-title">Self Care</h5>
+                            <a href="#" class="bullets">•••</a>
+                        </div>
+                        <div class="adaptive-align">
+                            <h1 id="current-hours"></h1>
+                            <p class="card-text" id="previous-hours"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>

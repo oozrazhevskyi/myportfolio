@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  height: 73px;
+  border-bottom: 1px solid #e5e9f2;
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  display: block;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.nav {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  color: #18191f;
+}
+
+.nav-link {
+  margin-right: 32px;
+  color: #18191f;
+  text-decoration: none;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.badges {
+  margin-left: auto;
+  display: flex;
+}
+
+.download-badge {
+  padding-right: 12px;
+}
+
+.download-badge:last-child {
+  padding-right: 0;
+}
+
+/* MAIN */
+
+.main-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 197px 0px;
+}
+.main-content {
+  width: 540px;
+  font-size: 18px;
+  color: #18191f;
+}
+
+.main-header {
+  margin: 0;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 1.36;
+  margin-bottom: 16px;
+}
+.main-content p {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 1.78;
+  margin-bottom: 32px;
+}
+.button {
+  display: inline-block;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 62px;
+  border-radius: 8px;
+  background: #8c30f5;
+
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 62px;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button:hover {
+  opacity: 0.7;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #0b0d17;
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+.footer-container {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.footer-copyright {
+  font-size: 14px;
+}
+.footer-socials {
+  margin-left: auto;
+  display: flex;
+}
+.footer-social-item {
+  padding-right: 16px;
+}
+.footer-social-item:last-child {
+  padding-right: 0;
+}
