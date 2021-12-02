@@ -102,10 +102,10 @@
   .progress {
     height: 18px;
     padding: 0;
-    background: #f5d6ab;
+    background: var(--bg-progress-secondary);
   }
   .progress-bar {
-    background: #c66c49;
+    background: var(--bg-progress-primary);
   }
   .skill {
     margin-bottom: 20px;
